@@ -5,7 +5,7 @@ README = (pathlib.Path(__file__).parent / "README.md").read_text(encoding="utf-8
 
 setup(
     name="cookielessaudiences",
-    version="1.0.0",
+    version="1.0.1",
     description="Python client for the Cookieless Audiences API: page-level audience segmentation (demographics, interests, purchase intent, B2B firmographics, personas) and IAB content categorization for any URL, with no cookies and no PII.",
     long_description=README,
     long_description_content_type="text/markdown",

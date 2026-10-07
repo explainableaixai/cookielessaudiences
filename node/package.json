@@ -1,6 +1,6 @@
 {
   "name": "cookielessaudiences",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js client for the Cookieless Audiences API: page-level audience segmentation (demographics, interests, purchase intent, B2B firmographics, personas) and IAB content categorization for any URL, with no cookies and no PII.",
   "main": "index.js",
   "types": "index.d.ts",
