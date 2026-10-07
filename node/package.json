@@ -1,0 +1,18 @@
+{
+  "name": "cookielessaudiences",
+  "version": "1.0.0",
+  "description": "Node.js client for the Cookieless Audiences API: page-level audience segmentation (demographics, interests, purchase intent, B2B firmographics, personas) and IAB content categorization for any URL, with no cookies and no PII.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node -e \"const C=require('./');const c=new C('x');if(typeof c.segment!=='function'||typeof C.vocabularies!=='function')process.exit(1);console.log('ok')\""
+  },
+  "keywords": ["cookieless", "cookieless audiences", "audience segmentation", "iab audience taxonomy", "iab categorization", "contextual targeting", "seller defined audiences", "purchase intent", "audience data", "adtech", "media planning", "inventory curation", "domain audience data", "privacy-safe advertising"],
+  "author": "Alpha Quantum <info@alpha-quantum.com>",
+  "license": "MIT",
+  "homepage": "https://www.cookielessaudiences.com",
+  "repository": { "type": "git", "url": "https://github.com/explainableaixai/cookielessaudiences" },
+  "bugs": { "url": "https://www.cookielessaudiences.com/contact.php" },
+  "engines": { "node": ">=14" }
+}
